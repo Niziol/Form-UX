@@ -6,7 +6,7 @@ const SimpleInput = (props) => {
 		isValid: enteredNameIsValid,
 		hasError: nameInputHasError,
 		valueChangeHandler: nameChangeHandler,
-		inputBlurHandler: nameBlurHandler,
+		blurHandler: nameBlurHandler,
 		reset: resetNameInput,
 	} = useInput((value) => value.trim() !== '');
 
